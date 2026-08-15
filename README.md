@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/syaizz-signal.svg" width="100%" alt="Animated developer signal for SyaizZ" />
+  <img src="syaizz-signal.svg" width="100%" alt="Animated developer signal for SyaizZ" />
 </div>
 
 <div align="center">
