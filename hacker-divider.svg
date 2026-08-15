@@ -1,0 +1,31 @@
+<svg width="900" height="34" viewBox="0 0 900 34" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="beam2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10141F" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#59F3D4" stop-opacity="1">
+        <animate attributeName="stop-color" values="#59F3D4;#FF9A62;#8B83FF;#59F3D4" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#10141F" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glowd" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <g font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="10" fill="#232838" opacity="0.9">
+    <text x="0" y="21.08">
+      <animate attributeName="x" from="0" to="-620" dur="14s" repeatCount="indefinite"/>
+      01001000 01000001 01000011 01001011 00100000 01110100 01101000 01100101 00100000 01110011 01101001 01100111 01101110 01100001 0110
+    </text>
+  </g>
+
+  <rect x="0" y="24.5" width="900" height="1" fill="#232838"/>
+  <rect x="-260" y="21.5" width="260" height="6" fill="url(#beam2)" filter="url(#glowd)">
+    <animate attributeName="x" from="-260" to="900" dur="3.2s" repeatCount="indefinite"/>
+  </rect>
+  <circle cy="24.5" r="3" fill="#59F3D4" filter="url(#glowd)">
+    <animate attributeName="cx" from="-10" to="910" dur="3.2s" repeatCount="indefinite"/>
+    <animate attributeName="fill" values="#59F3D4;#FF9A62;#8B83FF;#59F3D4" dur="6s" repeatCount="indefinite"/>
+  </circle>
+</svg>
