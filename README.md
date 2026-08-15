@@ -17,14 +17,14 @@
 ```yaml
 # profile.yaml
 name: Syaizzx
-role: [Your Role Here]        # contoh: Full-Stack Developer
-based_in: [Your Location]
+role: full-stack developer       # contoh: Full-Stack Developer
+based_in: Indonesian
 focus:
   - building side-projects
   - breaking production (learning purposes)
   - reading changelogs at 2am
-currently_learning: [Something New]
-fun_fact: "Ctrl+S is my love language"
+currently_learning: machine learning
+fun_fact: "Ctrl+C is my love language"
 ```
 
 </td>
